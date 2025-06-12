@@ -4,23 +4,23 @@ import re
 with open("quijote.txt", "r", encoding="utf-8") as f:
     quijote_text = f.read()
 
-# Dividir en líneas (útil para ubicar ocurrencias en caso de expansión)
+# Dividir en líneas (útil para ubicar ocurrencias en caso de expansion)
 lines = quijote_text.splitlines()
 
 # Lista de resultados
 results = []
 
-# 1. Cabeceras de capítulo (ej. "CAPÍTULO I", "CAPITULO XXV")
+# 1. Cabeceras de capitulo (ej. "CAPITULO I", "CAPITULO XXV")
 regex1 = re.compile(r'CAP[IÍ]TULO\s+[IVXLCDM0-9]+', re.IGNORECASE)
 matches1 = list(regex1.finditer(quijote_text))
 results.append(f"1. Expresion: {regex1.pattern} | Resultados: {len(matches1)}")
 
-# 2. Palabras antes y después de la 'y' para enumerar cosas (ej. 'espada y escudo')
+# 2. Palabras antes y despues de la 'y' para enumerar cosas (ej. 'espada y escudo')
 regex2 = re.compile(r'\b(\w+)\s+y\s+(\w+)\b', re.IGNORECASE)
 matches2 = list(regex2.finditer(quijote_text))
 results.append(f"2. Expresion: {regex2.pattern} | Resultados: {len(matches2)}")
 
-# 3. Sílabas pra-pre-pri-pro-pru seguidas de una letra d
+# 3. Silabas pra-pre-pri-pro-pru seguidas de una letra d
 regex3 = re.compile(r'\b(?:pra|pre|pri|pro|pru)d', re.IGNORECASE)
 matches3 = list(regex3.finditer(quijote_text))
 results.append(f"3. Expresion: {regex3.pattern} | Resultados: {len(matches3)}")
