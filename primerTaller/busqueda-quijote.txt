@@ -1,0 +1,5 @@
+1. Expresion: CAP[IÍ]TULO\s+[IVXLCDM0-9]+ | Resultados: 129
+2. Expresion: \b(\w+)\s+y\s+(\w+)\b | Resultados: 8899
+3. Expresion: \b(?:pra|pre|pri|pro|pru)d | Resultados: 112
+4. Expresion: \b(cra|cre|cri|cro|cru)\w* | Resultados únicos: 113
+5. Expresion: \b\w*(cho|cha|che|chi|chu)\b | Resultados: 4513

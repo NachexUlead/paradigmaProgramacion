@@ -1,0 +1,11 @@
+1. Expresion: 1415 | Resultados: 113 - todas las ocurrencias de la secuencia 1415
+2. Expresion: 1415[13579] | Resultados: 63 - 1415 seguido de un digito impar
+3. Expresion: [02468]{3} | Resultados: 89277 - 3 digitos pares seguidos
+4. Expresion: [02468]{3}9 | Resultados: 15547 - 3 digitos pares seguidos de un 9
+5. Expresion: [02468]{3}[13579] | Resultados: 78097 - 3 digitos pares seguidos de un digito impar
+6. Expresion: [02468]{3}[09] | Resultados: 26482 - 3 digitos pares seguidos de un 0 o 9
+7. Expresion: [02468]{2}([13579]{1,3})? | Resultados: 207897 - 2 pares seguidos con 1 a 3 impares opcionales
+8. Expresion: [13579]{2}0 | Resultados: 31250 - 2 impares seguidos de un 0
+9. Expresion: [13579][02468]{2,} | Resultados: 155982 - 1 impar seguido de al menos 2 pares
+10. Expresion: 11[13579] | Resultados: 5696 - 111,113,115,117 o 119
+11. Expresion: 11[13579][02468] | Resultados: 3062 - 111,113,115,117 o 119 seguidos de un par
