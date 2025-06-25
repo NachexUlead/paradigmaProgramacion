@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.Python
+
+# VSCode settings
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Logs and local files
+*.log
+*.sqlite3
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# pyinstaller
+dist/
+build/
+*.spec

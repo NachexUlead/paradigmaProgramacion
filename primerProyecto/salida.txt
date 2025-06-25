@@ -22,21 +22,21 @@ Oración 6: A telescope saw the girl.
   Léxico: OK
   Sintáctico: OK
 
-Oración 8: Cat saw the dog.                 # ❌ Falta artículo
+Oración 8: Cat saw the dog.                 #  Falta artículo
   Léxico: ERROR - Unexpected character: #
 
-Oración 9: The tree walked in the park.    # ❌ \"tree\" no es un sustantivo permitido
+Oración 9: The tree walked in the park.    #  \"tree\" no es un sustantivo permitido
   Léxico: ERROR - Unexpected character: t
 
-Oración 10: The boy eats the cat.           # ❌ \"eats\" no es un verbo permitido
+Oración 10: The boy eats the cat.           #  \"eats\" no es un verbo permitido
   Léxico: ERROR - Unexpected character: e
 
-Oración 11: The dog.                        # ❌ Falta verbo
+Oración 11: The dog.                        #  Falta verbo
   Léxico: ERROR - Unexpected character: #
 
-Oración 12: The girl walked in park.        # ❌ Falta artículo en \"in park\"
+Oración 12: The girl walked in park.        #  Falta artículo en \"in park\"
   Léxico: ERROR - Unexpected character: #
 
-Oración 13: The woman liked a telescope     # ❌ Falta punto final
+Oración 13: The woman liked a telescope     #  Falta punto final
   Léxico: ERROR - Unexpected character: #
 
