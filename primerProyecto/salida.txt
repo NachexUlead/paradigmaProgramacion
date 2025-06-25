@@ -1,0 +1,42 @@
+Oración 1: The boy saw the dog.
+  Léxico: OK
+  Sintáctico: OK
+
+Oración 2: A cat walked in the park.
+  Léxico: OK
+  Sintáctico: ERROR - Expected ARTICLE, got ('PREPOSITION', 'in')
+
+Oración 3: The woman liked a telescope.
+  Léxico: OK
+  Sintáctico: OK
+
+Oración 4: The girl walked with the boy.
+  Léxico: OK
+  Sintáctico: ERROR - Expected ARTICLE, got ('PREPOSITION', 'with')
+
+Oración 5: The man walked on the dog.
+  Léxico: OK
+  Sintáctico: ERROR - Expected ARTICLE, got ('PREPOSITION', 'on')
+
+Oración 6: A telescope saw the girl.
+  Léxico: OK
+  Sintáctico: OK
+
+Oración 8: Cat saw the dog.                 # ❌ Falta artículo
+  Léxico: ERROR - Unexpected character: #
+
+Oración 9: The tree walked in the park.    # ❌ \"tree\" no es un sustantivo permitido
+  Léxico: ERROR - Unexpected character: t
+
+Oración 10: The boy eats the cat.           # ❌ \"eats\" no es un verbo permitido
+  Léxico: ERROR - Unexpected character: e
+
+Oración 11: The dog.                        # ❌ Falta verbo
+  Léxico: ERROR - Unexpected character: #
+
+Oración 12: The girl walked in park.        # ❌ Falta artículo en \"in park\"
+  Léxico: ERROR - Unexpected character: #
+
+Oración 13: The woman liked a telescope     # ❌ Falta punto final
+  Léxico: ERROR - Unexpected character: #
+
